@@ -72,34 +72,6 @@ Segmented customers and accounts into active vs. dormant groups by region, highl
 > 🔹 **Bonus Insight:** Highest Spender Per City  
 Identified the top spender in each Nigerian city — a hyper-localized view of high-value clients.
 
-## Project Structure / Files Explained
-
-The project is organized to reflect a professional, modular data analysis workflow — from data generation to querying and documentation.
-
-Bank-Segmentation-Analysis/
-│
-├── data_setup/
-│ ├── create_tables.sql # SQL scripts to create and define the database schema (customers, accounts, transactions)
-│ ├── insert_customers.sql # Script to insert 200 simulated Nigerian/African customer profiles
-│ ├── insert_accounts.sql # Script to insert 200 bank accounts, randomly linked to customers
-│ ├── insert_transactions.sql # Script to simulate realistic transaction data (credits and debits)
-│
-├── queries/
-│ ├── 01_total_spend_per_customer.sql
-│ ├── 02_salary_trend_analysis.sql
-│ ├── 03_most_active_accounts_by_transactions.sql
-│ ├── 04_most_active_accounts_by_volume.sql
-│ ├── 05_monthly_transaction_breakdown.sql
-│ ├── 06_yearly_transaction_breakdown.sql
-│ ├── 07_top_20_high_value_customers.sql
-│ ├── 08_dormant_accounts.sql
-│ ├── 09_single_product_customers.sql
-│ ├── 10_most_used_transaction_services.sql
-│ ├── 11_city_wise_performance.sql
-│ └── 12_engagement_by_region.sql
-│
-└── README.md # Full project documentation — purpose, setup, queries, insights, and outcomes
-
 ---
 
 ## Conclusion & Recommendations
